@@ -1,0 +1,49 @@
+.buttons {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+button {
+  width: 100px;
+  border: 10px;
+  background-color: rgb(171, 131, 208);
+  margin: auto;
+  cursor: pointer;
+}
+
+.restart {
+  display: block;
+  width: 150px;
+  background-color: rgb(38, 77, 150);
+
+  margin: auto;
+  color: azure;
+}
+
+.restart-button {
+  margin-top: 65px;
+  cursor: pointer;
+}
+
+.board {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: azure;
+  display: block;
+}
+.board td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#count_up_timer {
+  width: 75px;
+  text-align: center;
+  border: 5px solid rgb(122, 40, 39);
+}
